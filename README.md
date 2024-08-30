@@ -1,1 +1,1 @@
-# Trivia_quiz
+# TRIVIA_GAME

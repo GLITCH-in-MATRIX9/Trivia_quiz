@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+:root {
+    --font-1: 'Source Serif 4', serif;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/batman.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+    font-family:var(--font-1);
+    color: white;
+}
+
+h1{
+    color: #cee728   ;
+}
+
+#quiz-container {   
+    max-width: 400px;
+    margin: auto;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+button {
+    font-family: var(--font-1);
+    border-radius:3px ;
+    font-size: 20px;
+    color: black ;
+    border: 5px solid #cee728;
+    box-shadow: white;
+    background-color: white;
+    padding: 7px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url(./images/batman\ -\ Copy.jpg);
+        margin: 20px;
+    }
+
+    #quiz-container {
+        max-width: 100%;
+    }
+}
